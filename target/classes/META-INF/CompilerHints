@@ -1,0 +1,15 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/adam/benchmark/FastThreadLocalFastPathBenchmark.fastThreadLocal
+inline,com/adam/benchmark/FastThreadLocalFastPathBenchmark.jdkThreadLocalGet
+inline,com/adam/benchmark/StringBenchmark.setup
+inline,com/adam/benchmark/StringBenchmark.tearDown
+inline,com/adam/benchmark/StringBenchmark.testStringAdd
+inline,com/adam/benchmark/StringBenchmark.testStringBuilderAdd
+inline,com/adam/benchmark/ThreadLocalBenchMark.setup
+inline,com/adam/benchmark/ThreadLocalBenchMark.testJDKThreadLocal
+inline,com/adam/benchmark/ThreadLocalBenchMark.testNettyFastThreadLocal
+inline,com/adam/benchmark/ThreadLocalBenchMark.testNettyFastThreadLocal2

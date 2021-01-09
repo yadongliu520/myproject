@@ -1,0 +1,25 @@
+@startuml
+Selector -> Bob: Authentication Requestsdfds
+Bob --> Alice: Authentication Response
+
+
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+
+@startuml
+actor 管理员 #red
+' 定义颜色角色的背景颜色，以区别不用的元素
+participant 服务1
+' 定义别名
+participant "请求日志" as R #99FF99
+' 也可以下面这种方式定义别名
+participant S as "响应日志" #99FF00
+
+服务1->服务2: 验证请求
+服务1->R: 日志记录
+
+服务2->服务1: 验证响应
+服务2->S: 日志记录
+@enduml
